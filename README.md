@@ -54,14 +54,25 @@ These values describe the baseline MATLAB configuration. The accompanying report
 
 ## Simulation Outputs
 
-The MATLAB script generates plots for:
+### 1. Ring Resonator Transmission and Optical Enhancement
 
-1. Through-port transmission and intracavity optical enhancement.
-2. Bare and ring-enhanced responsivity.
-3. Germanium photodetector photocurrent versus wavelength.
-4. Photocurrent sensitivity to coupling coefficient.
-5. Photocurrent sensitivity to propagation loss.
-6. Photocurrent behavior for different ring radii.
+![Ring resonator transmission and intracavity enhancement](resonator_transmission.png)
+
+The through-port transmission exhibits resonance dips, while the intracavity enhancement factor reaches approximately **20.4×** for the simulated configuration. This represents optical power enhancement inside the resonator, not an experimentally measured detector gain.
+
+### 2. Germanium Photodetector Response
+
+![Germanium photodetector responsivity and photocurrent](photodetector_response.png)
+
+The simulated ring-enhanced responsivity exhibits peaks at the resonance wavelengths. The corresponding photocurrent reaches approximately **460–470 µA** for the modeled 1 mW optical input.
+
+### 3. Parametric Analysis
+
+![Microring resonator parametric analysis](parameter_analysis.png)
+
+The parameter sweeps investigate the effects of bus-ring coupling, propagation loss, and ring radius. Coupling and loss influence the resonance response, while changing the ring radius alters the free spectral range and the spectral positions of the resonances.
+
+All figures are numerical simulation outputs generated using MATLAB.
 
 ## Results and Discussion
 
